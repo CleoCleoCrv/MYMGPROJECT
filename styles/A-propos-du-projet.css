@@ -1,0 +1,67 @@
+#logo {
+	width: 30%;
+	margin: auto;
+}
+@font-face {
+	font-family:mapolice;
+	src:url(moontells.ttf);
+}
+
+/*mise en forme de section*/
+body {
+	background-color : whitesmoke ;
+	background-attachment: fixed;
+}
+section h2 {
+background : RGB(47,75,80);
+border-radius : 15px 15px 0 0;
+width : 60%;
+height : 55px;
+text-align : center;
+font-family: mapolice;
+color : snow;
+margin :auto;
+margin-top: 15px;
+margin-bottom: 30px;
+}
+section h3 {
+color : #4D7847;
+font-family : "Courier New";
+text-align: center;
+}
+article h4 {
+font-style:italic;
+font-family:tahoma;
+font-size: 100%;
+color:#4D7847;
+}
+article {
+background: white;
+width:70%;
+border-top: 2px dashed DimGray;
+text-align: justify;
+margin: auto;
+}
+.image-left {
+float:left;
+margin-right : 10px;
+margin-bottom: 10px;
+margin-top: 5px;
+}
+.articleatelier{
+padding: 0 10px 10px 10px;
+}
+.paragraphe {
+text-align:jutify;
+font-family: "Courier New";
+font-size : 14px;
+}
+#menu li {
+display:inline;
+color : RGB(47,75,80);
+}
+.video {
+float : center;
+display: block;
+margin:0 auto 35px auto;
+}
